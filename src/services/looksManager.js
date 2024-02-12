@@ -6,8 +6,5 @@ const fetchLooks = async () => {
       })
       .catch((error) => console.error('Erreur lors du chargement du JSON :', error));
   }
-  
-  const filterProduct = async (looks, tags) => {
 
-  }
   export default fetchLooks; 

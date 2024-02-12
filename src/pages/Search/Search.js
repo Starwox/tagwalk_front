@@ -22,6 +22,7 @@ function Search() {
   const currentLooks = looksToDisplay.slice(indexOfFirstLook, indexOfLastLook);
   const pageCount = Math.ceil(looksToDisplay.length / looksPerPage);
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const token = localStorage.getItem('login');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -51,6 +52,7 @@ function Search() {
             brand={look.brand}
             season={look.season}
             tags={look.tags}
+            editable={token}
           />))
         ) : searchTerm === '' ? (
           looks.map(look => (                
@@ -61,6 +63,7 @@ function Search() {
               brand={look.brand}
               season={look.season}
               tags={look.tags}
+              editable={token}
             />))
         ) : (
           <p>Nothing found for: {searchTerm}.</p>
