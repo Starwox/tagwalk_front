@@ -1,0 +1,25 @@
+.Input {
+    width: 100%;
+    display: flex;
+}
+
+.Input input{
+    width: 100%;
+    padding: 0 20px 0 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 24px;
+}
+
+.Input button {
+    background-color: #000000;
+    border: none;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.43;
+    letter-spacing: .1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 1px;
+}

@@ -1,0 +1,10 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.Header .logo_tagwalk {
+    height: 50px;
+    width: auto;
+}

@@ -1,0 +1,20 @@
+.Filters {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.Filters li{
+    list-style: none;
+}
+
+.Filters .filter-input {
+    width: 50%;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.Filters div:first-child {
+    justify-content: center;
+}
